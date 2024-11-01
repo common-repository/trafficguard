@@ -1,0 +1,112 @@
+/** TrafficGuard Wordpress Plugin CSS **/
+
+.trafficguard-notification-container {
+    padding:0 12px;
+    border-left:4px solid #fff;
+    background:#fff;
+    box-shadow:0 1px 2px rgba(0,0,0,.2)
+}
+
+.trafficguard-notification {
+    position:relative;
+    max-width:1280px;
+    margin:0px 0 1px;
+    padding:5px 20px 0;
+}
+
+.trafficguard-notification-container .trafficguard-notification-box {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    min-height:0;
+    padding-bottom:5px;
+    margin-bottom:10px
+}
+
+.trafficguard-notification-container .trafficguard-notification-content {
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    margin:12px;
+    padding:20px
+}
+
+.trafficguard-notification-container .trafficguard-notification-content h3 {
+    border-bottom:0;
+    font-size:1.2em;
+    line-height:1;
+    margin:0 0 4px;
+    padding:0;
+    background:0 0
+}
+
+.trafficguard-notification .trafficguard-notification-content p {
+    margin:1em 0 0
+}
+
+
+#trafficguard-plugin-notification-holder {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.trafficguard-plugin-activation {
+    border: 1px solid #4F800D;
+    padding: 5px;
+    margin: 15px 0;
+    background: #83AF24;
+    background-image: -webkit-gradient(linear, 0% 0, 100% 100%, from(#27444C), to(#052630));
+    background-image: -moz-linear-gradient(100% 100% 128deg, #27444C, #052630);
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.trafficguard-plugin-activation .tg-box-description{
+    position: absolute;
+    top: 22px;
+    left: 193px;
+    margin-left: 43px;
+    color: #FFFFFF;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+.trafficguard-plugin-activation .tg-button-container {
+    display: inline-block;
+    margin-left: 43px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+.trafficguard-plugin-activation .tg-box-button {
+    background-color: #1899E1;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 9px 0 8px 0;
+    color: #FFF;
+}
+
+.trafficguard-plugin-activation .tg-box-logo {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    z-index: 1;
+}
